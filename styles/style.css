@@ -65,12 +65,8 @@ ol {
   align-items: flex-start;
 }
 
-.result__video-container,
-.content__list {
-  position: relative;
-}
-
 .result__video-container {
+  position: relative;
   width: 711px;
   height: 386px;
 }
@@ -86,8 +82,6 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  width: 711px;
-  height: 54px;
   margin-top: 16px;
 }
 
@@ -104,7 +98,7 @@ fieldset {
 
 .search-form__fieldset-title {
   color: #FFF;
-  font-family: 'Fira Sans Condensed';
+  font-family: inherit;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -119,8 +113,7 @@ fieldset {
   cursor: pointer;
 }
 
-.search-form__label:focus,
-.search-form__textfield:focus {
+.search-form__label:focus {
   outline: none;
 }
 
@@ -137,11 +130,6 @@ fieldset {
   text-decoration: none;
 }
 
-.search-form__textfield:active{
-  outline: 1px solid #FFF;
-  outline-offset: -1px;
-}
-
 .search-form__textfield {
   width: 225px;
   height: 27px;
@@ -150,13 +138,22 @@ fieldset {
   border-bottom: 1px solid #FFF;
   border-left: none;
   color: rgba(255, 255, 255, 0.70);
-  font-family: 'Fira Sans Condensed';
+  font-family: inherit;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
   line-height: normal;
   background-color: transparent;
   appearance: none;
+}
+
+.search-form__textfield:focus {
+  outline: none;
+}
+
+.search-form__textfield:active{
+  outline: 1px solid #FFF;
+  outline-offset: -1px;
 }
 
 .search-form__checkbox-list {
@@ -196,7 +193,7 @@ fieldset {
   align-self: self-end;
   border: 1px solid #fff;
   color: #FFF;
-  font-family: 'Fira Sans Condensed';
+  font-family: inherit;
   font-weight: 700;
   font-size: 18px;
   font-style: normal;
@@ -252,6 +249,7 @@ fieldset {
 }
 
 .content__list {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -292,7 +290,7 @@ fieldset {
 
 .content__video-card-description {
   color: #FFF;
-  font-family: 'Fira Sans Condensed';
+  font-family: inherit;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
