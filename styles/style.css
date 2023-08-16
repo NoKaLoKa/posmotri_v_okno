@@ -239,7 +239,7 @@ fieldset {
 
 .title {
   color: #FFF;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 75px;
   font-style: normal;
@@ -311,7 +311,7 @@ fieldset {
 .content__video-card-title {
   padding-bottom: 6px;
   color: #FFF;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
   font-style: normal;
